@@ -1,0 +1,7 @@
+/node_modules
+*.csv
+*.sql
+*.xls
+*.xlsx
+.env
+.evnrc
