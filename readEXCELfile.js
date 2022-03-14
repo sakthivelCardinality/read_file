@@ -33,7 +33,7 @@ const baseQuery = `INSERT INTO public.aisschedulerdetails
 VALUES
 `;
 try {
-  fs.appendFileSync('insert_query.sql', baseQuery);
+  fs.appendFileSync(fileName, baseQuery);
 } catch (error) {
   console.error(error);
 }
