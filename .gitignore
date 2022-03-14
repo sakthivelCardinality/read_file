@@ -5,3 +5,6 @@
 *.xlsx
 .env
 .evnrc
+*.xls**
+*.xlsx**
+*.csv**
